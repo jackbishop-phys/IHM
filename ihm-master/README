@@ -1,0 +1,13 @@
+IHM V1.0 J. Bishop Dec. 2020
+IHM = I Hate Mondays
+Uses GARFIELD++ to calculate coefficients needed for TexAtSim/TeBATSim
+To set up GARFIELD - add the following to your system paths:
+
+export GARFIELD_HOME = /usr/local/garfield_v3.0
+
+Compile with makefile and execute with ./IHM
+Then input either single or double gas
+Then name of gas (and ratio and second gas/ratio)
+Enter pressure in Torr
+Then enter FC voltage
+The program will then give you drift velocity and position/time resolution
